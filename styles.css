@@ -32,7 +32,7 @@ img {
 img.hide {
     position: absolute;
     top: 50%;
-    left: 75%;
+    left: 50%;
     transform: translate(-50%, -50%);
     z-index: -1000;
     width: 550px;
@@ -68,6 +68,7 @@ span {
 @media only screen and (max-width: 600px) {
     html, body {
         margin: 5px;
+        line-height: 30px;
     }
     .preview:hover + .hide {
         display: none;
