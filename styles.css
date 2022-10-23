@@ -11,7 +11,6 @@ body {
     margin: 30px;
     padding: 0;
     line-height: 35px;
-    color: black;
     display: flex;
     flex-direction: column;
 }
@@ -25,9 +24,6 @@ a {
     text-decoration: none;
 }
 
-img {
-    /* width: 150px; */
-}
 
 img.hide {
     position: absolute;
@@ -35,7 +31,6 @@ img.hide {
     right: 0px;
     transform: translate(0%, -50%);
     z-index: -1000;
-    /* width: 450px; */
 }
 
 span {
