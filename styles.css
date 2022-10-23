@@ -26,21 +26,21 @@ a {
 }
 
 img {
-    width: 175px;
+    /* width: 150px; */
 }
 
 img.hide {
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    right: 0px;
+    transform: translate(0%, -50%);
     z-index: -1000;
-    width: 550px;
+    /* width: 450px; */
 }
 
 span {
     font-size: 12px;
-    color:rgb(255, 68, 174);
+    color:rgb(25, 0, 255);
     margin-right: 10px;
 }
 
@@ -69,10 +69,7 @@ span {
     html, body {
         margin: 5px;
         line-height: 30px;
-    }
-
-    .preview {
-        line-height: 25px;
+        font-size: 15px;
     }
 
     .preview:hover + .hide {
