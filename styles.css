@@ -1,25 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,300;1,200;1,300&display=swap');
 
-* {
+html {
+    margin: 0px;
+}
+
+body {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 15px;
-    margin: 2px;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 30px;
     padding: 0;
-    background: rgb(50, 50, 50);
-    color: rgb(221, 221, 221);
+    line-height: 35px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    display: inline-block
 }
 
 a {
-    color:rgb(255, 177, 242);
+    color: black;
     text-decoration: none;
 }
 
-a:hover {
-    cursor: default;
-    background: rgb(255, 177, 242);
-    color: rgb(50, 50, 50);;
+img {
+    width: 175px;
+}
+
+img.hide {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1000;
+    width: 550px;
+}
+
+span {
+    font-size: 12px;
+    color:rgb(255, 68, 174);
+    margin-right: 10px;
 }
 
 .about {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
+
+.links {
+    margin-left: 20px;
+}
+
+.hide {
+    display: none;
+  }
+
+.preview:hover + .hide {
+    display: block;
+}
+
+.contact {
+    bottom: 30px;
+    position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+    html, body {
+        margin: 5px;
+    }
+    .preview:hover + .hide {
+        display: none;
+    }
+  }
