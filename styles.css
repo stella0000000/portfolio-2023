@@ -7,7 +7,7 @@ html {
 body {
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 17px;
     margin: 30px;
     padding: 0;
     line-height: 35px;
@@ -72,6 +72,6 @@ span {
     }
 
     span {
-        font-size: 11px;
+        font-size: 10px;
     }
   }
