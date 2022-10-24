@@ -16,6 +16,9 @@ function setup() {
 }
 
 function draw() {
+    if (width < 600) {
+        return
+    }
     translate(10, 20);
     scale(0.25);
     strokeWeight(3);
