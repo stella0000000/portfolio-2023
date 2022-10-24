@@ -70,4 +70,8 @@ span {
     .preview:hover + .hide {
         display: none;
     }
+
+    span {
+        font-size: 11px;
+    }
   }
