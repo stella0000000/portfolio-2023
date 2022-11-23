@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,300;1,200;1,300&display=swap');
 
+* {
+    cursor: default;
+}
+
 html {
     margin: 0px;
 }
@@ -35,7 +39,7 @@ img.hide {
 
 span {
     font-size: 14px;
-    color:rgb(255, 77, 181);
+    color:rgb(4, 0, 255);
     margin-right: 10px;
 }
 
