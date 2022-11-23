@@ -57,6 +57,7 @@ span {
 
 .preview:hover + .hide {
     display: block;
+    z-index: -10;
 }
 
 .contact {
