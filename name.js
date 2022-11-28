@@ -16,6 +16,9 @@ function setup() {
 }
 
 function draw() {
+  if (width < 600) {
+    return
+  }
   background(255);
   strokeWeight(1.5);
   translate(windowWidth-600, -250)
@@ -118,7 +121,6 @@ function draw() {
 
   // ㄹ
   push();
-
   translate(0, 315, 0);
   rotateY(frameCount * speed);
   box(90, 10, 10);
