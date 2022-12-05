@@ -1,4 +1,4 @@
-var speed = 0.015;
+var speed = 0.01;
 
 // function windowResized() {
   // resizeCanvas(windowWidth, windowHeight);
@@ -11,7 +11,7 @@ function setup() {
   canvas.style("top", "0");
   canvas.style("left", "0");
   camera(0, -200, 1000, 0, 0, 0, 0, 1, 0);
-  //normalMaterial();
+  // normalMaterial();
   //debugMode();
 }
 
@@ -20,7 +20,9 @@ function draw() {
     return
   }
   background(255);
-  strokeWeight(1.5);
+  // fill(210)
+  stroke(0)
+  strokeWeight(1.25);
   translate(windowWidth-600, -250)
   // scale(0.85);
 

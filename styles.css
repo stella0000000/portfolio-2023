@@ -14,9 +14,10 @@ body {
     font-size: 17px;
     margin: 30px;
     padding: 0;
-    line-height: 35px;
+    line-height: 33px;
     display: flex;
     flex-direction: column;
+    color: rgb(0, 0, 0);
 }
 
 div {
@@ -26,6 +27,11 @@ div {
 a {
     color: black;
     text-decoration: none;
+}
+
+a:hover{
+    background: black;
+    color: white;
 }
 
 
@@ -39,7 +45,7 @@ img.hide {
 
 span {
     font-size: 14px;
-    color:rgb(4, 0, 255);
+    color:rgb(0, 26, 255);
     margin-right: 10px;
 }
 
